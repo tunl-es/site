@@ -42,6 +42,7 @@ header.terminal{background:#E0E8F0;height:30px;border-radius:8px 8px 0 0;padding
 .terminal-container{text-align:left;border-radius:10px;margin:auto;margin-bottom:14px;position:relative;}
 .terminal-fixed-top{margin-top: 30px;}
 .terminal-home{
+	min-height: 10em;
 	background-color: #30353A;
 	padding: 1.5em 1em 1em 2em;
 	border-bottom-left-radius: 6px;
@@ -91,94 +92,136 @@ header.terminal{background:#E0E8F0;height:30px;border-radius:8px 8px 0 0;padding
 		<section class="services-area services-one">
 			<div class="container">
 				<div class="row">
-							<div class="col">
-								<div class="services-content mt-40 d-sm-flex">
-									<div class="services-icon">
-										<i class="lni-fireworks"></i>
-									</div>
-									<div class="services-content media-body">
-										<h4 class="services-title">Fast</h4>
-										<p class="text">Our communication protocol is designed for low latency and high troughput</p>
-									</div>
-								</div> <!-- services content -->
+					<div class="col">
+						<div class="services-content mt-40 d-sm-flex">
+							<div class="services-icon">
+								<i class="lni-fireworks"></i>
 							</div>
-							<div class="col">
-								<div class="services-content mt-40 d-sm-flex">
-									<div class="services-icon">
-										<i class="lni-protection"></i>
-									</div>
-									<div class="services-content media-body">
-										<h4 class="services-title">Secure</h4>
-										<p class="text">End-to-end symmetric cryptography is used to encrypt the data and keep your data priate and secure.</p>
-									</div>
-								</div> <!-- services content -->
+							<div class="services-content media-body">
+								<h4 class="services-title">Fast</h4>
+								<p class="text">Our light weight communication protocol is designed for low latency and high troughput</p>
 							</div>
-						</div>
-						<div class="row">
-							<div class="col">
-								<div class="services-content mt-40 d-sm-flex">
-									<div class="services-icon">
-										<i class="lni-cloud"></i>
-									</div>
-									<div class="services-content media-body">
-										<h4 class="services-title">Modern</h4>
-										<p class="text">Supports modern protocols like IPv6, QUIC and KCP.</p>
-									</div>
-								</div> <!-- services content -->
+						</div> <!-- services content -->
+					</div>
+					<div class="col">
+						<div class="services-content mt-40 d-sm-flex">
+							<div class="services-icon">
+								<i class="lni-protection"></i>
 							</div>
-							<div class="col">
-								<div class="services-content mt-40 d-sm-flex">
-									<div class="services-icon">
-										<i class="lni-thumbs-up"></i>
-									</div>
-									<div class="services-content media-body">
-										<h4 class="services-title">Simple</h4>
-										<p class="text">Distributed as a single binary package with a clear command line interface</p>
-									</div>
-								</div> <!-- services content -->
+							<div class="services-content media-body">
+								<h4 class="services-title">Secure</h4>
+								<p class="text">End-to-end symmetric cryptography is used to keep your data private and secure.</p>
 							</div>
-						</div> <!-- row -->
+						</div> <!-- services content -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="services-content mt-40 d-sm-flex">
+							<div class="services-icon">
+								<i class="lni-cloud"></i>
+							</div>
+							<div class="services-content media-body">
+								<h4 class="services-title">Modern</h4>
+								<p class="text">Supports modern protocols like IPv6, QUIC and KCP.</p>
+							</div>
+						</div> <!-- services content -->
+					</div>
+					<div class="col">
+						<div class="services-content mt-40 d-sm-flex">
+							<div class="services-icon">
+								<i class="lni-thumbs-up"></i>
+							</div>
+							<div class="services-content media-body">
+								<h4 class="services-title">Simple</h4>
+								<p class="text">Distributed as a single binary package with a clear command line interface</p>
+							</div>
+						</div> <!-- services content -->
+					</div>
+				</div> <!-- row -->
 			</div> <!-- container -->
 		</section>
-
-    <section class="services-area services-one">
-        <div class="container"> 
-				<section class="terminal-container terminal-fixed-top">
-					<header class="terminal">
-						<span class="button red"></span>
-						<span class="button yellow"></span>
-						<span class="button green"></span>
-					</header>
-
-					<div class="terminal-home">					
-						<p class="console">$ tunl http localhost:3000<br />
-						https://red-fox.tunl.es -> http://localhost:3000</p>
+		<section class="services-area services-two d-lg-flex align-items-center">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="services-content">
+							<h3 class="services-title">Expose HTTP services to the internet</h3>
+							<p class="text">NodeJS service tunning at your localhost on port 3000? Or an Python Django project at port 8000? Use the <code>tunl http</code> to create a public and secure internet address for it or any other http service in the local network.</p>
+						</div> <!-- services content -->
 					</div>
-				</section>
+					<div class="col-lg-6">
+						<section class="terminal-container terminal-fixed-top">
+							<header class="terminal">
+								<span class="button red"></span>
+								<span class="button yellow"></span>
+								<span class="button green"></span>
+							</header>
+
+							<div class="terminal-home">					
+								<p class="console">$ tunl http localhost:3000<br />
+								https://red-fox.tunl.es -> http://localhost:3000</p>
+							</div>
+						</section>
+					</div>
+				</div> <!-- row -->
+			</div> <!-- container -->
+
+		</section>
+
+		<section class="services-area services-two d-lg-flex align-items-center">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<section class="terminal-container terminal-fixed-top">
+							<header class="terminal">
+								<span class="button red"></span>
+								<span class="button yellow"></span>
+								<span class="button green"></span>
+							</header>
+
+							<div class="terminal-home">					
+								<p class="console">$ tunl tcp localhost:3306<br />
+								tcp.tunl.es:23011 -> localhost:3306</p>
+							</div>
+						</section>
+					</div>
+					<div class="col-lg-6">
+						<div class="services-content">
+							<h3 class="services-title">Expose TCP services to the internet</h3>
+							<p class="text">MySQL instance running on your local machine at port 3306? Or an MongoDB at 27017? Share this or any other TCP service with the <code>tunl tcp</code> command to create a fast and public internet addres for it.</p>
+						</div> <!-- services content -->
+					</div>
+
+				</div> <!-- row -->
+			</div> <!-- container -->
+
+		<section class="services-area services-one">
+			<div class="container"> 
 			</div>
 		</section>
 
-			<!--====== SERVICES ONE PART ENDS ======-->
-			<!--====== HEADER SIX PART ENDS ======-->
+		<!--====== SERVICES ONE PART ENDS ======-->
+		<!--====== HEADER SIX PART ENDS ======-->
 
 		<!--====== jquery js ======-->
-			<script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
-			<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+		<script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+		<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
 
-			<!--====== Bootstrap js ======-->
-			<script src="assets/js/bootstrap.min.js"></script>
-			<script src="assets/js/popper.min.js"></script>
+		<!--====== Bootstrap js ======-->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
 
-			<!--====== Images Loaded js ======-->
-			<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+		<!--====== Images Loaded js ======-->
+		<script src="assets/js/imagesloaded.pkgd.min.js"></script>
 
-			<!--====== Appear js ======-->
-			<script src="assets/js/jquery.appear.min.js"></script>
+		<!--====== Appear js ======-->
+		<script src="assets/js/jquery.appear.min.js"></script>
 
 
 
-			<!--====== Main js ======-->
-			<script src="assets/js/main.js"></script>
+		<!--====== Main js ======-->
+		<script src="assets/js/main.js"></script>
 
 	</body>
 
